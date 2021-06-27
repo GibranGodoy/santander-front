@@ -11,6 +11,7 @@ h2{
 p{
     color: #8b8b8bcc;
     /* text-decoration: green wavy underline; */
+    margin-top: 15px;
 }
 
 button{
@@ -35,7 +36,7 @@ input{
 }
 
 .header{
-    margin: 40px 20px 0 20px;
+    margin: 0px 20px 0 20px;
     font-family: sans-serif;
     font-size: 0;
     line-height: 45px;
@@ -362,4 +363,106 @@ h4{
 .featureImage img{
     margin-top: 0;
     height: 100%;
+}
+
+.platform{
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.platform h2{
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    font-family: "Alegreya", serif;
+    margin-bottom: 8px;
+}
+
+.platform > p{
+    max-width: 60%;
+    color: #46484c;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.platform p a{
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.platform button{
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+    padding: 6px 20px;
+}
+
+.platformCards{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.platformCards .card{
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.platformCards .card .cardTitle{
+    position: relative;
+    height: 350px;
+}
+
+.platformCards .card .cardTitle .cardBg{
+    width: 100%;
+    height: 100%;
+}
+
+.platformCards .card .cardTitle .cardLogo{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+
+.platformCards .card .cardBody{
+    padding: 25px;
+}
+
+.platformCards .card .cardBody h3{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
+}
+
+.platformCards .card .cardBody p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #46484c;
+    font-weight: 400;
+    height: 85px;
+    margin-bottom: 16px;
+}
+
+.platformCards .card .cardBody a{
+    font-size: 16px;
+    color: #67b54b;
+    line-height: 1.4;
+    font-weight: 600;
+    text-decoration: none;
 }
