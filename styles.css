@@ -466,3 +466,95 @@ h4{
     font-weight: 600;
     text-decoration: none;
 }
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    body{
+        background-color: #67b54b;
+    }
+
+    .navbar, .actions{
+        display: none;
+    }
+
+    h1{
+        margin-top: 40px;
+        font-size: 36px;
+    }
+
+    .banner > img{
+        width: 100%;
+    }
+
+    .publishForm{
+        display: flex;
+        gap: 8px;
+        padding: 16px;
+    }
+
+    .publishForm form {
+        flex-direction: column;
+    }
+
+    .publishForm form *{
+        margin-top: 8px;
+    }
+
+    .publishForm form button{
+        height: 24px;
+    }
+
+    .publish{
+        flex-direction: column;
+        max-width: 90%;
+        margin-top: 24px;
+    }
+
+    .video video{
+        width: 100%;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featureContent figure{
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .featureContent{
+        padding: 24px 16px;
+        width: 100%;
+    }
+
+    .featureImage{
+        flex: 0;
+    }
+
+    .featureImage > figure > img{
+        display: none;
+    }
+
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
