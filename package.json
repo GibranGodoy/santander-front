@@ -1,0 +1,22 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GibranGodoy/santander-front.git"
+  },
+  "author": "Gibran Godoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GibranGodoy/santander-front/issues"
+  },
+  "homepage": "https://github.com/GibranGodoy/santander-front#readme",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}
